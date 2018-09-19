@@ -8,7 +8,7 @@ class App extends React.Component {
       <div>
           <Header/>
         <p>
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+          Välkommen till Markus och Hannas Bröllops 13 Juli 2013!
         </p>
       </div>
     );
