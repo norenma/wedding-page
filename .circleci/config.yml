@@ -24,7 +24,7 @@ jobs:
             sudo apt-get install python-dev python-pip
             pip install awscli --upgrade --user
 
-      - runs: 
+      - run: 
           name: check
           command: ls
 
