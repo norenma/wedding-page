@@ -35,6 +35,10 @@ jobs:
         
       # run tests!
       - run: yarn test
+
+      - run: apk add --update python python-dev py-pip build-base
+      - run: pip install awscli
+
       - run:
           name: Deploy
           command: 'aws s3 sync ./build s3://markushanna19 --delete --acl public-read'
