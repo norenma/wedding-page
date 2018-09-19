@@ -22,7 +22,7 @@ jobs:
           name: Install awscli
           command: |
             sudo apt-get install python-dev python-pip
-            pip install awscli --upgrade --user
+            sudo pip install awscli
 
       - run: 
           name: check
@@ -44,7 +44,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
         
       # run tests!
-      - run: yarn test
+      # - run: yarn test
 
       # build
       - run: yarn build
