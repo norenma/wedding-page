@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: Install awscli
-          command: sudo pip install awscli
+          command: pip install awscli
 
       # Download and cache dependencies
       - restore_cache:
