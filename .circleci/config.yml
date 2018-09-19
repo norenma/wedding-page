@@ -36,7 +36,7 @@ jobs:
       # run tests!
       - run: yarn test
 
-      - run: apt-get update && apt-get install awscli
+      - run: sudo apt-get -y -qq install awscli
 
       - run:
           name: Deploy
