@@ -36,8 +36,7 @@ jobs:
       # run tests!
       - run: yarn test
 
-      - run: apk add --update python python-dev py-pip build-base
-      - run: pip install awscli
+      - run: apt-get update && apt-get install awscli
 
       - run:
           name: Deploy
