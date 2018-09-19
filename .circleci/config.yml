@@ -35,13 +35,9 @@ jobs:
         
       # run tests!
       - run: yarn test
-  deploy:
-    machine:
-      enabled: true
-    working_directory: ~/repo
-    steps:
-       - run:
+      - run:
           name: Deploy
           command: 'aws s3 sync ./build s3://markushanna19 --delete --acl public-read'
+
 
 
