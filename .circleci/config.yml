@@ -36,6 +36,7 @@ jobs:
       # run tests!
       - run: yarn test
 
+      # build
       - run: yarn build
 
       - run: sudo apt-get -y -qq install awscli
