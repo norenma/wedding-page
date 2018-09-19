@@ -20,7 +20,11 @@ jobs:
       - checkout
       - run:
           name: Install awscli
-          command: pip install awscli
+          command: |
+          sudo apt-get install python-dev python-pip
+          sudo pip install awscli
+          aws — version
+
 
       # Download and cache dependencies
       - restore_cache:
