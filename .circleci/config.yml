@@ -23,7 +23,7 @@ jobs:
           command: |
             sudo apt-get install python-dev python-pip
             pip install awscli --upgrade --user
-            aws — version
+            aws --version
 
 
       # Download and cache dependencies
