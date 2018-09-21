@@ -7,15 +7,13 @@ class App extends React.Component {
     return (
       <div>
           <Header/>
-        <p>
-          Välkommen till Markus och Hannas Bröllops 13 Juli 2013!
-        </p>
       </div>
     );
   }
 }
 
 export default App;
+
 
 
 

@@ -9,7 +9,8 @@
   "rules": {
     "interface-name":[false],
     "no-empty-interface":[false],
-    "member-access": [false]
+    "member-access": [false],
+    "ordered-imports": [false]
   }
 
 }
