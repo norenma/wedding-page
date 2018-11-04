@@ -6,5 +6,25 @@ body {
 
 @font-face {
   font-family: 'alex-bruch';
-  src: url('AlexBrush-Regular.ttf');
+  src: url('fonts/AlexBrush-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url("fonts/Trajan-Pro-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Respective';
+    src: url("fonts/Respective.ttf");
+}
+
+@font-face {
+    font-family: 'Clicker';
+    src: url("fonts/ClickerScript-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Cochin';
+    src: url("fonts/Cochin LT.ttf");
 }
