@@ -16,6 +16,9 @@ export default class Crew extends Component<Props, State> {
   render() {
     return (
       <Container>
+        <PersContainer>
+          <span> Personer under vigseln </span>
+        </PersContainer>
         <CrewItem src={ablaImg} title={'BRUDTÄRNA'} name={'ALBA DOGANI'} />
         <CrewItem
           src={martaImg}
@@ -38,6 +41,19 @@ export default class Crew extends Component<Props, State> {
     );
   }
 }
+
+const PersContainer = styled.span`
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+  font-family: 'alex-bruch', serif;
+  font-size: 5vw;
+  width: 100%;
+  color: #d9b58b;
+  @media only screen and (min-width: 1024px) {
+    font-size: 40px;
+  }
+`;
 
 const Container = styled.div`
   width: 90%;
@@ -75,7 +91,7 @@ const Img = styled.img`
 `;
 
 const Name = styled.div`
-  color: rgb(20, 20, 20, 0.5);
+  color: rgba(20, 20, 20, 0.5);
   font-size: 2.5vw;
   font-weight: bold;
   /* Desktops and laptops ----------- */
@@ -85,7 +101,7 @@ const Name = styled.div`
 `;
 
 const Title = styled.div`
-  color: rgb(20, 20, 20, 0.5);
+  color: rgba(20, 20, 20, 0.5);
   font-size: 2vw;
   margin-bottom: 20px;
   /* Desktops and laptops ----------- */

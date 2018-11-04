@@ -20,11 +20,11 @@ class App extends React.Component {
           <AboutUs/>
           <Space height={"20vh"}/>
           <Countdown/>
-          <Space height={"20vh"}/>
+          <Space id={"our-story"} height={"20vh"}/>
           <OurStory/>
-          <Space height={"20vh"}/>
+          <Space id={"crew"} height={"15vh"}/>
           <Crew/>
-          <Space height={"20vh"}/>
+          <Space id={"more-info"} height={"20vh"}/>
           <MoreInfo/>
           <Space height={"10vh"}/>
 
@@ -42,8 +42,8 @@ const Container = styled.div`
 
 export default App;
 
-function Space ({height}: {height: string}) {
-    return <div style={{display: "flex", height}}/>
+function Space ({height, id}: {height: string; id?: string}) {
+    return <div id={id} style={{display: "flex", height}}/>
 }
 
 

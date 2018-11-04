@@ -48,6 +48,7 @@ const Wrapper = styled.div`
   justify-content: center;
   font-size: 14px;
   flex-direction: row;
+  color: rgba(60, 60, 60, 1);
 
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
@@ -79,7 +80,7 @@ const Text = styled.span`
   padding: 1.5em;
   display: flex;
   flex-direction: column;
-  background-color: rgb(215, 221, 204, 0.2);
+  background-color: rgba(215, 221, 204, 0.2);
 `;
 
 const Paragraph = styled.p`

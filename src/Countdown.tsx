@@ -21,7 +21,7 @@ export default class Countdown extends React.Component<any, State> {
   }
 
   getDateTo() {
-    const then = new Date('2019-07-13 15:00');
+    const then = new Date(2019, 7, 13, 15, 0, 0, 0);
     const diff: any = countdown(then);
     return {
       seconds: diff.seconds,
@@ -47,7 +47,7 @@ export default class Countdown extends React.Component<any, State> {
 }
 
 const CountDownContainer = styled.div`
-  background-color: rgb(217, 181, 139, 0.15);
+  background-color: rgba(217, 181, 139, 0.15);
   width: 100%;
   display: flex;
   justify-content: space-around;
