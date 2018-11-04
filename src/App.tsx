@@ -1,10 +1,10 @@
 import * as React from 'react';
-import {AboutUs} from "src/AboutUs";
-import Countdown from "src/Countdown";
-import Crew from "src/Crew";
-import Menu from "src/Menu";
-import MoreInfo from "src/MoreInfo";
-import OurStory from "src/OurStory";
+import AboutUs from "./AboutUs";
+import Countdown from "./Countdown";
+import Crew from "./Crew";
+import Menu from "./Menu";
+import MoreInfo from "./MoreInfo";
+import OurStory from "./OurStory";
 import styled from "styled-components";
 import Header from './Header';
 

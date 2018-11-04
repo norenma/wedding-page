@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import hannaImg from './hanna@2x.jpg';
 import markusImg from './markus@2x.jpg';
 
-export function AboutUs() {
+export default function AboutUs() {
   return (
     <div>
       <Container>
