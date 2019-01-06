@@ -61,7 +61,7 @@ const Wrapper = styled.div`
   }
   /* Desktops and laptops ----------- */
   @media only screen and (min-width: 1224px) {
-    font-size: 18px;
+    font-size: 15px;
     flex-direction: row;
   }
 `;
