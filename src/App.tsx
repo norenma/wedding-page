@@ -1,4 +1,6 @@
 import * as React from 'react';
+import Header from "src/Header";
+import WishList from "src/WishList";
 import AboutUs from "./AboutUs";
 import Countdown from "./Countdown";
 import Crew from "./Crew";
@@ -6,7 +8,6 @@ import Menu from "./Menu";
 import MoreInfo from "./MoreInfo";
 import OurStory from "./OurStory";
 import styled from "styled-components";
-import Header from './Header';
 
 
 
@@ -27,12 +28,15 @@ class App extends React.Component {
           <Crew/>
           <Space id={"more-info"} height={"20vh"}/>
           <MoreInfo/>
+          <Space height={"10vh"} id={"wish-list"}/>
+          <WishList />
           <Space height={"10vh"}/>
 
       </Container>
     );
   }
 }
+
 
 const Container = styled.div`
   display: flex;

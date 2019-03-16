@@ -16,6 +16,7 @@ export default class Menu extends Component<Props, State> {
             <LinkItem href={'#our-story'}> Brudparet </LinkItem>
             <LinkItem href={'#crew'}> Personer vid vigsel </LinkItem>
             <LinkItem href={'#more-info'}> Tid & Plats </LinkItem>
+            <LinkItem href={'#wish-list'}> Önskelista </LinkItem>
             <LinkItem href={'https://goo.gl/forms/HcPhJA54dgqBCTTf2'}> RSVP </LinkItem>
         </MenuContainer>);
     }
@@ -37,12 +38,12 @@ const LinkItem = styled.a`
   }
   /* ipad */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    font-size: 24px;
+    font-size: 18px;
     flex-direction: column;
   }
   /* Desktops and laptops ----------- */
   @media only screen and (min-width: 1224px) {
-    font-size:24px;
+    font-size:16px;
     flex-direction: row;
   }
   font-size: 24px;
