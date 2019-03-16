@@ -17,7 +17,6 @@ export default class Menu extends Component<Props, State> {
             <LinkItem href={'#crew'}> Personer vid vigsel </LinkItem>
             <LinkItem href={'#more-info'}> Tid & Plats </LinkItem>
             <LinkItem href={'#wish-list'}> Önskelista </LinkItem>
-            <LinkItem href={'https://goo.gl/forms/HcPhJA54dgqBCTTf2'}> RSVP </LinkItem>
         </MenuContainer>);
     }
 }
