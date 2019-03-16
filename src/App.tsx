@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Header from "src/Header";
-import WishList from "src/WishList";
+import Header from "./Header";
+import WishList from "./WishList";
 import AboutUs from "./AboutUs";
 import Countdown from "./Countdown";
 import Crew from "./Crew";
