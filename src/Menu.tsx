@@ -33,7 +33,7 @@ const MenuContainer = styled.div`
 const LinkItem = styled.a`
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     flex-direction: column;
-    font-size: 12px;
+    font-size: 10px;
   }
   /* ipad */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
