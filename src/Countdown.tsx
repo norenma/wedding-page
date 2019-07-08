@@ -21,7 +21,7 @@ export default class Countdown extends React.Component<any, State> {
   }
 
   getDateTo() {
-    const then = new Date(2019, 7, 13, 15, 0, 0, 0);
+    const then = new Date(2019, 6, 13, 15, 0, 0, 0);
     const diff: any = countdown(then);
     return {
       seconds: diff.seconds,

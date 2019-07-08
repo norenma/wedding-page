@@ -81,7 +81,6 @@ function CrewItem(props: {
 }
 
 const Img = styled.img`
-  width: 80%;
   max-width: 200px;
   margin-left: auto;
   margin-right: auto;
